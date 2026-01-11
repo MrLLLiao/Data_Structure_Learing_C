@@ -46,4 +46,24 @@ $$
 $$
     \sum_{i=0}^N A^i \leq \frac{1}{A - 1}
 $$  
-当且仅当$ N \to \infty $该和趋近于$ \frac{1}{A - 1} $
+当且仅当$ N \to \infty $该和趋近于$ \frac{1}{1 - A} $  
+下面进入无穷级数$ \sum_{i=0}^\infty A^i (0 < A < 1) $的结果的推导
+$$
+\begin{gather}
+    令S = \sum_{i=0}^\infty A^i = 1 + A + A^2 + A^3 + ... \\
+    则AS = A + A^2 + A^3 + ... \\
+    故S - AS = 1,即得到S = \frac{1}{1 - A}
+\end{gather}
+$$
+还有另一种常用的级数是算术级数，任何算术级数都可以通过基本公式计算，例如
+$$
+\begin{eqnarray}
+    \sum_{i=1}^N i & = & \frac{N(N+1)}{2} \approx \frac{N^2}{2} \\
+    \sum_{i=1}^N i^2 & = & \frac{N(N+1)(2N+1)}{6} \approx \frac{N^3}{3} \\
+    \sum_{i=1}^M i^k & \approx & \frac{N^{k+1}}{\left| {k+1} \right|}
+\end{eqnarray}
+$$
+易知$ k = -1 $时第三个公式不成立。此时我们需要引入数$ H_N $——调和数，其和称为调和和。  
+下面近似式中的误差趋近于$ \gamma \approx 0.57721566 $，这个值称作**欧拉常数**
+$$ H_N = \sum_{i=1}^N \frac{1}{i} \approx \log_{e} N $$
+---
