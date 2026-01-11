@@ -35,3 +35,15 @@ $$
 $$
 ---
 ## 1.3 级数
+下面先给出两个最基本的公式
+$$
+\begin{eqnarray}
+    \sum_{i=0}^N 2^i & = & 2^{N+1} - 1 \\ 
+    \sum_{i=0}^N A^i & = & \frac{A^{N+1} - 1}{A - 1}
+\end{eqnarray}
+$$
+在第二个公式中，若$ 0 < A < 1 $则
+$$
+    \sum_{i=0}^N A^i \leq \frac{1}{A - 1}
+$$  
+当且仅当$ N \to \infty $该和趋近于$ \frac{1}{A - 1} $
