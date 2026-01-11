@@ -12,5 +12,26 @@ ___
 ___
 ## 1.1 指数
 下面给出一些基本公式  
-$$ X^AX^B = X^{A+B} $$  
-$$  $$
+$$ 
+\begin{eqnarray}
+    X^AX^B & = & X^{A+B}  \\
+    \frac{X^A}{X^B} & = & X^{A-B} \\ 
+    (X^A)^B & = & X^{AB}  \\
+    X^N + X^N & = & 2X^N \neq X^{2N} \\ 
+    2^N + 2^N & = & 2^{N+1} \\
+\end{eqnarray}
+$$ 
+---
+## 1.2 对数
+约定俗成地把 $ log_2 $ 记作 $ log $  
+有以下几个定理
+$$
+\begin{eqnarray}
+    \log_AB & = & \frac{\log_C{B}}{\log_C{A}} \\
+    \log{AB} & = & \log{A} + \log{B} \\
+    \log{\frac{A}{B}} & = & \log{A} - \log{B} \\
+    \log{A^B} & = & B\log{A} \\
+\end{eqnarray}
+$$
+---
+## 1.3 级数
